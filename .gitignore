@@ -4,7 +4,24 @@
 *.so
 *.dylib
 *.out
+*.com
+*.o
 anySemicolon
+
+# Pakcages
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
 
 # Test binary, build with `go test -c`
 *.test
@@ -14,5 +31,12 @@ anySemicolon
 **/.svn
 **/.hg
 **/CVS
-**/.DS_Store
-**/Thumbs.db
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
